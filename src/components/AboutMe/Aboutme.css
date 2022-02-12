@@ -1,0 +1,64 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+}
+.aboutme h1 {
+  text-align: center;
+  font-size: 8rem;
+  margin: 2rem;
+  text-shadow: 2px 2px 5px rgb(63, 61, 86, 0.6);
+}
+.aboutme p {
+  width: 50%;
+  text-align: right;
+  font-size: 3rem;
+  z-index: 2;
+  margin: 1rem;
+}
+.about-left {
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+  float: left;
+}
+.about-svg-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-right {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  float: right;
+}
+.single-skill {
+  margin: 2rem 0;
+  padding: 2rem 0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.single-skill > * {
+  margin: 0 2rem;
+}
+.skill-svg-container {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+}
+.skill-svg-container img {
+  margin: 0 2rem 0 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

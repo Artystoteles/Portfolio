@@ -1,0 +1,39 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.projects h1 {
+  text-align: center;
+  font-size: 8rem;
+  margin: 2rem;
+  text-shadow: 2px 2px 5px rgb(63, 61, 86, 0.6);
+}
+.other-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: rgb(63, 61, 86);
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 50px;
+  width: 60%;
+  height: 60px;
+}
+.other-btn span {
+  width: 40px;
+  height: 40px;
+}
+.other-btn span img {
+  width: 100%;
+  height: 100%;
+}
+
+.other-btn * {
+  margin: 0 0.5rem;
+}
