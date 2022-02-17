@@ -9,6 +9,7 @@
   text-shadow: 2px 2px 5px rgb(63, 61, 86, 0.6);
 }
 .aboutme p {
+  text-shadow: 2px 2px 5px rgba(143, 143, 143, 0.6);
   width: 50%;
   text-align: right;
   font-size: 3rem;
@@ -42,12 +43,27 @@
   float: right;
 }
 .single-skill {
+  border: 1px solid hotpink;
   margin: 2rem 0;
   padding: 2rem 0;
+  width: 100%;
   height: 10vh;
   display: flex;
   align-items: center;
 }
+.skill-logo {
+  border: 1px solid green;
+  width: 20%;
+}
+.skill-logo img {
+  width: 100%;
+  height: 100%;
+}
+.skill-rate {
+  border: 1px solid rgb(5, 176, 255);
+  width: 80%;
+}
+
 .single-skill > * {
   margin: 0 2rem;
 }
@@ -61,4 +77,44 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+  .about-svg-container {
+    display: none;
+  }
+  .skill-svg-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .about-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about-right {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: auto;
+  }
+  .aboutme p {
+    text-align: center;
+  }
+  .about-svg-container {
+    display: none;
+  }
+  .skill-svg-container {
+    display: none;
+  }
+  .aboutme-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .single-skill {
+    width: 50%;
+  }
 }

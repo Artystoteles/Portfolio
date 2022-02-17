@@ -1,6 +1,23 @@
 import "./Contactme.css";
+import emailjs from "@emailjs/browser";
 import { MH } from "../index.js";
 const ContactMe = () => {
+  function handleEmail(e) {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_oc07lzs",
+        "template_4sq9ekl",
+        e.target,
+        "user_rWWK8H9AmBdtlmfeni20i"
+      )
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
   return (
     <div className="contactme">
       <h1>Contact me</h1>
@@ -9,22 +26,27 @@ const ContactMe = () => {
           <img src={MH} />
         </div>
         <div className="contact-right">
-          <input
-            type="text"
-            placeholder="example@gmail.com"
-            className="contact-input mail"
-          ></input>
-          <input
-            type="text"
-            placeholder="Subject"
-            className="contact-input subject"
-          ></input>
-          <input
-            type="text"
-            placeholder="Something nice..."
-            className="contact-input content"
-          ></input>
-          <button>SEND</button>
+          <form onSubmit={handleEmail}>
+            <input
+              name="email"
+              type="text"
+              placeholder="example@gmail.com"
+              className="contact-input mail"
+            ></input>
+            <input
+              name="subject"
+              type="text"
+              placeholder="Subject"
+              className="contact-input subject"
+            ></input>
+            <input
+              name="message"
+              type="text"
+              placeholder="Something nice..."
+              className="contact-input content"
+            ></input>
+            <input type="submit" value="SEND" />
+          </form>
         </div>
       </div>
     </div>
