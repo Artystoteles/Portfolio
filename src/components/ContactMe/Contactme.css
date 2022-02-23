@@ -71,6 +71,10 @@
 .content {
   height: 300px;
 }
+.content:focus {
+  border: none;
+}
+
 @media only screen and (max-width: 1580px) {
   .contact-input {
     width: 80%;
