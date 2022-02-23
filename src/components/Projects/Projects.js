@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       name: "Shopping Cart",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "It's Shopping cart app uses fakestore API made with react and typescript",
       technology: [RC, TS],
       tech_photo: RC,
       url: "https://github.com/Artystoteles/Shopping-Cart-React-TS",
@@ -18,7 +18,7 @@ const Projects = () => {
       id: 2,
       name: "Team generator",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "Have you ever had a problem with fair distribution of teams? This Angular app will help you",
       technology: [AN, TS],
       tech_photo: AN,
       url: "https://github.com/Artystoteles/Angular-TeamRandomiser",
@@ -27,7 +27,7 @@ const Projects = () => {
       id: 3,
       name: "Quiz App",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "Do you want to check your knowledge? Click on the button and try this app",
       technology: [JS, HT, CS],
       tech_photo: JS,
       url: "https://github.com/Artystoteles/QuizApp-JS",

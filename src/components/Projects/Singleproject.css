@@ -13,6 +13,7 @@
   align-items: center;
   background-color: rgb(63, 61, 86);
   border-radius: 25px 0 0 0;
+  min-width: 10%;
 }
 
 .tech-logo-container img {
@@ -43,6 +44,7 @@
   width: 100%;
   height: 100%;
 }
+
 .proj-container p {
   font-size: 2rem;
 }
@@ -78,4 +80,21 @@
 }
 .proj-title {
   font-size: 3rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .proj-btn {
+    font-size: 1.5rem;
+    width: 100px;
+    height: 30px;
+  }
+  .proj-btn span {
+    width: 30px;
+    height: 30px;
+  }
+  .tech-container span {
+    margin: 0 1rem;
+    width: 30px;
+    height: 30px;
+  }
 }

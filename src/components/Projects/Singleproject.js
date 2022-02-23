@@ -10,7 +10,10 @@ const Singleproject = (project) => {
       <div className="proj-container">
         <h2 className="proj-title">{project.project.name}</h2>
         <p className="proj-desc">{project.project.description}</p>
-        <p> Technology: </p>
+        <p>
+          {" "}
+          <strong>Technology </strong>:{" "}
+        </p>
         <div className="tech-n-btn">
           <div className="tech-container">
             {project.project.technology.map((tech) => (

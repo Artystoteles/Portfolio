@@ -1,6 +1,7 @@
 .contactme {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 .contactme h1 {
   text-align: center;
@@ -70,9 +71,17 @@
 .content {
   height: 300px;
 }
-
+@media only screen and (max-width: 1580px) {
+  .contact-input {
+    width: 80%;
+  }
+}
 @media only screen and (max-width: 1300px) {
   .contact-left {
     display: none;
   }
+}
+@media only screen and (max-width: 1100px) {
+}
+@media only screen and (max-width: 700px) {
 }
