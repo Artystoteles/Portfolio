@@ -39,12 +39,12 @@ const ContactMe = () => {
               placeholder="Subject"
               className="contact-input subject"
             ></input>
-            <input
+            <textarea
               name="message"
               type="text"
               placeholder="Something nice..."
               className="contact-input content"
-            ></input>
+            ></textarea>
             <input type="submit" value="SEND" />
           </form>
         </div>
