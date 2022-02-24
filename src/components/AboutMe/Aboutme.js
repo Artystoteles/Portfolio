@@ -34,10 +34,10 @@ const AboutMe = () => {
       <h1>About Me</h1>
       <div className="aboutme-container">
         <div className="about-left">
-          <h1>I'm a frontend developer from Cracov, Poland</h1>
+          <h1>I'm a frontend developer from Cracow, Poland</h1>
           <p>
             I enjoy taking complex problems and turning them into beautiful
-            layouts. I'm intrestet in logical part of websites. I'm the most
+            layouts. I'm intrested in logical part of websites. I'm the most
             confident in working with react but willing to develop my skills in
             other technologies. I finished some courses and many interesting
             projects you can see on my
@@ -52,16 +52,16 @@ const AboutMe = () => {
             <div key={skill.id} className="single-skill ">
               {skill.photo.map((photo) => (
                 <div className="skill-logo">
-                  <img src={photo} />
+                  <img src={photo} alt="tech photo" />
                 </div>
               ))}
               <div className="skill-rate">
-                <img src={skill.stars} />
+                <img src={skill.stars} alt="skill rate" />
               </div>
             </div>
           ))}
           <div className="skill-svg-container">
-            <img src={SH} />
+            <img src={SH} alt="standing man" />
           </div>
         </div>
       </div>

@@ -32,7 +32,9 @@ const ContactMe = () => {
       <h1>Contact me</h1>
       <div className="contact-container">
         <div className="contact-left">
-          <img src={MH} alt="man with letter" />
+          <div className="contact-svg-container">
+            <img src={MH} alt="man with letter" />
+          </div>
         </div>
         <div className="contact-right">
           <form onSubmit={handleEmail}>
