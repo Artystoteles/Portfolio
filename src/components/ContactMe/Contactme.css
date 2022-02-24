@@ -71,8 +71,8 @@
 .content {
   height: 300px;
 }
-.content:focus {
-  border: none;
+textarea:focus {
+  outline: none !important;
 }
 
 @media only screen and (max-width: 1580px) {

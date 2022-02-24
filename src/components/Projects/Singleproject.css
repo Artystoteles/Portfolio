@@ -4,7 +4,7 @@
   border-radius: 25px 0px 25px 0px;
   box-shadow: 2px 3px 10px 5px rgba(63, 61, 86, 0.6);
   width: 60vw;
-  height: 20vh;
+  min-height: 20vh;
   margin: 4rem 0;
 }
 .tech-logo-container {
