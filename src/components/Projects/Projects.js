@@ -1,9 +1,32 @@
 import "./Projects.css";
 import Singleproject from "./Singleproject.js";
-import { AH, HT, CS, JS, RC, TS, AN, S2, S3, S4, GH } from "../index.js";
+import {
+  ND,
+  MN,
+  AH,
+  HT,
+  CS,
+  JS,
+  RC,
+  TS,
+  AN,
+  S2,
+  S3,
+  S4,
+  GH,
+} from "../index.js";
 
 const Projects = () => {
   const projects = [
+    {
+      id: 0,
+      name: "Ecommerce Website",
+      description:
+        "It's fullstack ecommerce app made with react, node and mongodb database",
+      technology: [RC, ND, MN],
+      tech_photo: RC,
+      url: "https://github.com/Artystoteles/EcommerceApp",
+    },
     {
       id: 1,
       name: "Shopping Cart",
@@ -41,13 +64,19 @@ const Projects = () => {
           <Singleproject key={item.id} project={item} />
         ))}
       </div>
-      <button className="other-btn">
-        OTHER{" "}
-        <span>
-          {" "}
-          <img src={GH} />
-        </span>
-      </button>
+      <a
+        className="other-btn"
+        href="https://github.com/Artystoteles"
+        target="_blank"
+      >
+        <button className="other-btn">
+          OTHER{" "}
+          <span>
+            {" "}
+            <img src={GH} />
+          </span>
+        </button>
+      </a>
     </div>
   );
 };

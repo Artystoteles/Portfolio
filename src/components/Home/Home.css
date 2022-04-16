@@ -102,6 +102,15 @@
 }
 @media only screen and (max-width: 500px) {
   .home-left {
+    text-align: center;
     margin-left: 4rem;
+    width: 100%;
+  }
+  .home-right {
+    display: none;
+  }
+  .home-container-btns {
+    flex-direction: column;
+    margin: 2rem;
   }
 }

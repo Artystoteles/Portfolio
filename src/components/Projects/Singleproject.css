@@ -4,6 +4,7 @@
   border-radius: 25px 0px 25px 0px;
   box-shadow: 2px 3px 10px 5px rgba(63, 61, 86, 0.6);
   width: 60vw;
+  min-width: 380px;
   min-height: 20vh;
   margin: 4rem 0;
 }
@@ -96,5 +97,16 @@
     margin: 0 1rem;
     width: 30px;
     height: 30px;
+  }
+  .tech-container span {
+    width: 20px;
+    height: 20px;
+  }
+  .proj-btn {
+    width: 90px;
+  }
+  .proj-btn span {
+    width: 20px;
+    height: 20px;
   }
 }

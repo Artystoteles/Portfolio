@@ -1,11 +1,11 @@
 import "./Aboutme.css";
-import { SH, HT, CS, JS, RC, TS, AN, S2, S3, S4 } from "../index.js";
+import { HaC, SH, HT, CS, JS, RC, TS, AN, S2, S3, S4 } from "../index.js";
 
 const AboutMe = () => {
   const skills = [
     {
       id: 1,
-      photo: [HT, CS],
+      photo: [HaC],
       stars: S4,
     },
     {
