@@ -56,6 +56,9 @@ input:focus {
   html {
     font-size: 9.5px;
   }
+  .navbar span {
+    font-size: 3.8rem;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -67,6 +70,9 @@ input:focus {
     width: 40%;
     height: 40%;
   }
+  .navbar span {
+    font-size: 3.5rem;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -76,6 +82,9 @@ input:focus {
   .logo {
     width: 30%;
     height: 30%;
+  }
+  .navbar span {
+    font-size: 3rem;
   }
 }
 @media only screen and (max-width: 700px) {
